@@ -1,0 +1,28 @@
+
+  .ss{
+    display:flex;
+    
+    justify-content: space-between;
+  }
+  .ss img{
+    width:300px;
+    height: 300x;
+    
+    
+    
+
+  }
+  div{
+    text-align:center;
+    text-transform:capitalize;
+    color: chocolate;
+    
+    
+    
+  }
+ .text{
+    display:flex;
+    word-space:20px;
+    justify-content:space-between;
+
+ }

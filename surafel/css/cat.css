@@ -1,0 +1,60 @@
+h1{
+    border:3px solid blue;
+    text-align:center;
+    text-shadow: 2px 3px 3px #ec062d;
+    border-radius:400px;
+    font-family:'Courier New', Courier, monospace;
+
+    animation-name:sif;
+    animation-duration:4s;
+    animation-play-state: running;
+    animation-iteration-count: infinite
+
+}
+@keyframes sif{
+
+0%{background-color:red}
+  
+25%{background-color:yellow}
+50%{background-color:purple}
+75%{background-color:aqua}
+100%{background-color:blue}
+
+    }
+
+img{
+   
+    width:100%;
+
+    
+} 
+table{
+    border:5px solid #1fe618;
+    width:50%;
+    height:100%;
+    border-collapse:separate;
+    border-spacing:10px;
+    text-align:center;
+    
+
+}
+   th{
+    background-color: rgb(9, 1, 17);
+    color:rgb(235, 240, 230);
+    padding:20px;
+
+}
+table tr{
+    background-color: antiquewhite;
+}
+td{
+    border-width:50px;
+    padding:30px;
+}
+div{
+   
+    display:inline-block;
+}
+p{
+    line-height:60px;
+}

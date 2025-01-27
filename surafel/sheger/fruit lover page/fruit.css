@@ -1,0 +1,16 @@
+.a{
+    display:flex;
+}
+h2{
+    background-color: rgb(56, 24, 238);
+}
+.b{
+    display:flex;
+}
+h3{
+    color:blue;
+    text-align:center;
+}
+h2{
+    text-align: center;
+}
