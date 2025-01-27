@@ -1,0 +1,61 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cafe.css">
+</head>
+<body>
+    <header>
+        <h1>ARSI UNIVERSITY CAFE</h1>
+    </header>
+    <main>
+        <form method="post" action=" git"> 
+            <label for="username">FULL NAME:</label>
+            <input type="text" id="username" name="username" placeholder="your full name" required/>
+            <br>
+            <label for="email">EMAIL ADDRESS:</label>
+            <input type="email" id="email" name="email" placeholder="your email" required/>
+            <br>
+            <label for="password">PASSWORD:</label>
+            <input type="password" id="password" name="user-pw" required/>
+            <br>
+            <label for="age">AGE:</label>
+            <input type="number" id="age" name="user-age" required/>
+            <br>
+            <h2>What is your gender?</h2>
+            <label>
+                Male: <input type="radio" name="gender" value="male" required/>
+            </label>
+            <br>
+            <label>
+                Female: <input type="radio" name="gender" value="female" required/>
+            </label>
+            <br>
+            <h3>How much do you like our cafe:</h3>
+            <span>0%</span>
+            <input type="range" name="user" min="0" max="100" step="10">
+            <span>100%</span>
+            <br>
+            <label for="field"><b>From which department are you?:</b></label>
+            <select id="field" name="department" required>
+                <option value="">Select your department</option>
+                <option value="computer science">Computer Science</option>
+                <option value="medicine">Medicine</option>
+                <option value="management">Management</option>
+                <option value="accounting">Accounting</option>
+                <option value="economics">Economics</option>
+                <option value="teaching">Teaching</option>
+                <option value="law">Law</option>
+                <option value="other">Other</option>
+            </select>
+            <br>
+            <label for="feedback"><b>Write here any feedback you have about our cafe:</b></label>
+            <textarea name="area" id="feedback" cols="40" rows="3"></textarea>
+            <br>
+            <input type="submit" value="Submit"/>
+        </form>
+    </main>
+</body>
+</html>
